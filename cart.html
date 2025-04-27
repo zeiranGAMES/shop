@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHub - Кошик</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/PlayStation_logo.svg/1280px-PlayStation_logo.svg.png" alt="GameHub Logo" width="120">
+            </div>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="products.html">Товари</a></li>
+                <li><a href="cart.html" class="active">Кошик</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="page-title">Ваш кошик</h1>
+        
+        <div class="cart-container">
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="https://image.api.playstation.com/vulcan/ap/rnd/202010/0222/niMUubpU6N1AqbzRYBTXKLg4.png" alt="God of War">
+                    <div class="item-details">
+                        <h3>God of War</h3>
+                        <p class="price">899 грн</p>
+                        <button class="remove-item" data-id="4">Видалити</button>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="https://image.api.playstation.com/vulcan/ap/rnd/202209/0309/Yk8cHQ1i8K6o5b2RJn5lY8w0.png" alt="FIFA 23">
+                    <div class="item-details">
+                        <h3>FIFA 23</h3>
+                        <p class="price">699 грн</p>
+                        <button class="remove-item" data-id="5">Видалити</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-summary">
+                <h3>Підсумок</h3>
+                <div class="summary-row">
+                    <span>Товари (2):</span>
+                    <span>1598 грн</span>
+                </div>
+                <div class="summary-row">
+                    <span>Доставка:</span>
+                    <span>Безкоштовно</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Всього:</span>
+                    <span>1598 грн</span>
+                </div>
+                <button class="checkout-btn">Замовити доставку</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <h3>Контакти</h3>
+            <p><img src="https://cdn-icons-png.flaticon.com/512/725/725643.png" width="20"> Email: info@gamehub.ua</p>
+            <p><img src="https://cdn-icons-png.flaticon.com/512/126/126509.png" width="20"> Телефон: +380 (XX) XXX-XX-XX</p>
+        </div>
+        <p class="copyright">&copy; 2023 GameHub. Всі права захищені.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
